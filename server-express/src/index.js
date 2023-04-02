@@ -14,8 +14,8 @@ app.get("/", (request, response) => {
 
 const start = () => {
     try {
-        app.listen(5000, () => {
-            console.log(`App is listening on url: http://localhost:5000`);
+        app.listen(8080, () => {
+            console.log(`App is listening on url: http://localhost:8080`);
         })
     }
     catch (error) {

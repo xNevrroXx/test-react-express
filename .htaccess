@@ -1,0 +1,4 @@
+PassengerNodejs /home/g/govoro4b/.local/bin/node
+PassengerAppRoot /home/g/govoro4b/gooo-store.ru/server
+PassengerAppType node
+PassengerStartupFile index.js

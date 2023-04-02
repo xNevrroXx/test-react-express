@@ -8,7 +8,7 @@ function App() {
 
     fetchedRef.current = true;
     async function getData() {
-      const response = await fetch("http://localhost:5000"); // todo set url of the BACKEND URL
+      const response = await fetch("http://govoro4b.beget.tech:8080"); // todo set url of the BACKEND
       const data = await response.json();
 
       console.log("response: ", data);
